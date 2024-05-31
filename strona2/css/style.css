@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -47,14 +51,22 @@ body {
     text-align: center;
 }
 
+section {
+    /* Pomaga nam w tym, że nawigacja nie przykrywa nam ekranu gdy użyjemy kotwicy. 60px to wysokość nawigacji */
+    scroll-margin-top: 80px;
+}
+
 /* Nawigacja */
 
 nav {
+    position: sticky;
+    top: 0;
     height: 60px;
     /* Stylujemy wysokość przez line-height bo nie znamy jeszcze flex boxa i to jest takie obejście */
     line-height: 60px;
     background-color: #ddd;
     text-align: center;
+    z-index: 10;
 }
 
 .burger-icon {
@@ -99,6 +111,7 @@ main {
 
 .products h3 {
     text-transform: uppercase;
+    transition: transform 0.1s;
 }
 
 .product {
@@ -109,6 +122,10 @@ main {
     text-align: center;
 }
 
+.product:hover h3 {
+    transform: scale(1.6);
+}
+
 .first-product {
     background-image: url('../img/children.jpg');
 }
@@ -117,29 +134,27 @@ main {
     background-image: url('../img/keyboard.jpg');
 }
 
-.third-product{
+.third-product {
     background-image: url('../img/working.jpg');
 }
 
-.fourth-product{
+.fourth-product {
     background-image: url('../img/workspace.jpg');
 }
 
 /* kontakt */
 
-.contact{
+.contact {
     text-align: center;
-    
 }
 
-.contact h3{
+.contact h3 {
     margin: 20px 0 5px;
     text-transform: uppercase;
-
 }
 
 /* footer */
-footer{
+footer {
     padding: 30px 10px;
     text-align: center;
     background-color: #ddd;
@@ -180,19 +195,19 @@ footer{
         font-size: 18px;
     }
 
-    .products h3{
+    .products h3 {
         font-size: 24px;
     }
 }
 
 @media (min-width: 992px) {
     /* Można to zrobić flex boxem ale go nie znamy więc trzeba sobie radzić inaczej */
-    .products-box{
+    .products-box {
         font-size: 0;
     }
 
-    .product{
-        display:inline-block;
+    .product {
+        display: inline-block;
         width: 50%;
     }
 }
