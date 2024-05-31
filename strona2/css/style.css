@@ -15,15 +15,14 @@ body {
     max-width: 1200px;
 }
 
-.hero-bg{
+.hero-bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.8);
-
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hero-text{
+.hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,15 +30,21 @@ body {
     color: #fff;
 }
 
-.hero-text h1{
+.hero-text h1 {
     margin-bottom: 5px;
     text-shadow: 3px 3px 5px #000;
     color: aliceblue;
 }
 
-.hero-text span{
+.hero-text span {
     text-transform: uppercase;
     color: #09f;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* Nawigacja */
@@ -51,7 +56,6 @@ nav {
     background-color: #ddd;
     text-align: center;
 }
-
 
 .burger-icon {
     display: block;
@@ -69,7 +73,7 @@ nav {
 }
 
 /* Header */
-.header{
+.header {
     position: relative;
     height: 330px;
     background-image: url('../img/hero_small.jpg');
@@ -77,6 +81,50 @@ nav {
     background-position: center;
 }
 
+/* Main */
+main {
+    margin: 60px 0;
+}
+
+/* o nas */
+.about-us-info {
+    margin-bottom: 10px;
+}
+
+/* produkty */
+.products {
+    margin: 60px auto;
+}
+
+.products h3 {
+    text-transform: uppercase;
+}
+
+.product {
+    position: relative;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.first-product {
+    background-image: url('../img/children.jpg');
+}
+
+.second-product {
+    background-image: url('../img/keyboard.jpg');
+}
+
+.third-product{
+    background-image: url('../img/working.jpg');
+}
+
+.fourth-product{
+    background-image: url('../img/workspace.jpg');
+}
 
 @media (min-width: 768px) {
     .burger-icon {
@@ -87,41 +135,39 @@ nav {
         display: block;
     }
 
-    .nav-items a{
+    .nav-items a {
         padding: 0 30px;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: bold;
         color: #333;
-        transition: color .3s;
+        transition: color 0.3s;
     }
 
-    .nav-items a:hover{
+    .nav-items a:hover {
         color: #09f;
-        
     }
 
-    .header{
+    .header {
         height: 400px;
         background-image: url('../img/hero_big.jpg');
     }
 
-    .hero-text h1{
+    .hero-text h1 {
         font-size: 36px;
     }
 
-    .hero-text p{
+    .hero-text p {
         font-size: 18px;
     }
 }
 
 @media (min-width: 1200px) {
-    .hero-text h1{
+    .hero-text h1 {
         font-size: 42px;
     }
 
-    .hero-text p{
+    .hero-text p {
         font-size: 20px;
     }
 }
-
