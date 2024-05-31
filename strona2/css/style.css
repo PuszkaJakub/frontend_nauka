@@ -125,6 +125,26 @@ main {
     background-image: url('../img/workspace.jpg');
 }
 
+/* kontakt */
+
+.contact{
+    text-align: center;
+    
+}
+
+.contact h3{
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+
+}
+
+/* footer */
+footer{
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #ddd;
+}
+
 @media (min-width: 768px) {
     .burger-icon {
         display: none;
