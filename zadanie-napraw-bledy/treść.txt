@@ -1,0 +1,24 @@
+Moi drodzy,
+
+Niżej znajdziecie kod JS, który musicie naprawić. 🙂
+
+Wykorzystajcie do tego wiedzę zdobytą w tym dziale, a w kolejnym odcinku pokażę Wam, jak należało poprawnie wykonać całe zdanie!
+
+Ilość błędów do naprawy: 6
+
+
+
+Kod:
+const firstName = 'Tomek'
+let age = 12
+age = 18
+ 
+var favColor = 'niebieski'
+const fav-meal = 'schabowy'
+ 
+let current.Car
+current.Car = 'Audi'
+ 
+let firstName = 'Ania'
+let age2 = 24
+let ulubionyKolor = 'czerwony'
