@@ -1,0 +1,50 @@
+Zadanie – metody slice & splice
+Moi drodzy, czas na małe zadanie! 🙂
+
+Niżej znajdziecie treść, opis metod slice & splice, oraz podgląd na poprawnie wykonane zadanie.
+
+W kolejnym odcinku pokażę jak należało podejść do tego wyzwania. 😉
+
+
+
+slice() – metoda niedestrukcyjna 👍
+pierwszy argument – indeks elementu, od którego wycinamy (włącznie),
+
+drugi argument – indeks elementu, do którego wycinamy (ale bez tego elementu).
+
+
+
+splice() – metoda destrukcyjna 💣
+pierwszy argument – indeks elementu, od którego wycinamy (włącznie),
+
+drugi argument – ilość elementów, które wycinamy,
+
+każdy kolejny argument – nowy element, który chcemy dodać do tablicy w miejsce wyciętego.
+
+Uwaga! Zarówno przy slice jak i splice, nie musimy podawać wszystkich argumentów. Jeden też zadziała. 😉
+
+
+
+Treść zadania:
+Skopiuj poniższy kod do pliku .js.
+
+const numbers = [0, 0, 1, 1, 2, 2, 2]
+const colors = ['red', 'green', 'blue', true, 123]
+const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
+Stwórz zmienną numbers2 i za pomocą metody slice, wytnij z tablicy numbers pierwsze dwa zera.
+
+Następnie stwórz numbers3 i za pomocą metody slice, wytnij trzy ostatnie dwójki z tablicy numbers. Jeśli nie wiesz jak to zrobić, dokumentacja na MDN z pewnością pomoże. 🙂
+
+Obydwie te zmienne wypisz w konsoli.
+
+
+
+Następnie za pomocą metody splice, wytnij dwa ostanie elementy z tablicy colors.
+
+Te nowe elementy wsadź do tablicy o nazwie randomStuff. Nowe tablice wyloguj w konsoli.
+
+
+
+Teraz przejdź do tablicy cars. Musisz wyciąć z niej wszystkie samochody i przypisać do tablicy newCars. Skorzystaj oczywiście z metody splice. Podczas wycinania, dodaj napis 'test' do tablicy cars.
+
+W konsoli wyloguj tablicę cars oraz newCars.
