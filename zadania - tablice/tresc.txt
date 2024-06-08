@@ -1,0 +1,64 @@
+Zadanie 1
+
+1. Stwórz tablicę const letters = ['c', 'd'].
+2. Za pomocą odpowiednich metod, dodaj na początku litery 'a' oraz 'b', a na końcu 'e' oraz 'f'.
+    Tablicę wyloguj w konsoli.
+3. Za pomocą odpowiedniej metody sprawdź, czy tablica zawiera literę 'c' i wynik wyloguj w konsoli.
+
+
+Zadanie 2
+
+1. Stwórz tablicę z cyframi.
+2. Stwórz drugą tablicę z jedzeniem.
+3. Stwórz nową zmienną i za pomocą odpowiedniej metody, przypisz do niej połączone tablice z cyframi i jedzeniem.
+    Nową tablicę wyloguj w konsoli.
+
+BONUS: Wykonaj to zadanie z operatorem SPREAD...
+
+
+Zadanie 3 
+
+1. Stwórz tablicę z cyframi: 1, 5, 13, 26, 48.
+
+2. Za pomocą forEach lub map (która metoda będzie lepsza do tego zadania?), wydrukuj w konsoli
+    wszystkie liczby z tablicy, ale pomnożone przez 5.
+    Nową tablicę przypisz do nowej zmiennej.
+
+3. Za pomocą instrukcji warunkowej if oraz odpowiedniej pętli, przejdź po nowo utworzonej tablicy i
+    sprawdź, które liczby są parzyste.
+
+Wyniki wyloguj w konsoli za pomocą template stringa, tak jak widać na podglądzie.
+
+
+Zadanie 4.
+
+1. Stwórz tablicę z jednym kolorem (zapisz go małymi literami).
+
+2. Za pomocą odpowiednich metod dodaj nowy kolor na początku i na końcu tablicy.
+
+3. Przeiteruj po tablicy za pomocą pętli for. W konsoli wypisz zdanie:
+    Mój ulubiony kolor to: [nazwa_koloru]
+
+Nazwa koloru powinna być zapisana wielkimi literami!
+
+
+Zadanie dla ambitnych 
+
+Za pomocą odpowiednich metod na stringu, wypisz w konsoli kolory tak, aby zaczynały się od wielkiej litery (zamiast całego wyrazu wypisanego wielkimi literami).
+
+Np. Niebieski, Zielony, Czerwony
+
+
+
+Zadanie 5
+
+1. Stwórz stringa (jednego) z samochodami "Audi, Mercedes, BMW, Nissan, Dodge".
+
+2. Za pomocą metody na stringu, zrób z niego tablicę i przypisz do nowej zmiennej (jest taka metoda, która ma w nazwie coś wspólnego z dzieleniem / podziałami 🤭).
+
+3. Za pomocą operatora warunkowego sprawdź, czy długość tablicy jest większa, niż 3.
+    Jeśli tak – wypisz w konsoli "Jest OK", jeśli nie – wyloguj "Nie jest OK".
+
+4. Za pomocą instrukcji warunkowej i odpowiedniej metody sprawdź, czy nasza tablica zawiera markę Audi.
+    Jeśli tak – za pomocą odpowiedniej metody dodaj nową markę do tablicy.
+    Jeśli nie – za pomocą odpowiedniej metody usuń ostatni element z tablicy.
