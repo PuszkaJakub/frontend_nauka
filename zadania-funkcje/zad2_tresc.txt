@@ -1,0 +1,16 @@
+Zadanie 2
+
+1. Stwórz zmienne celsius oraz temp.
+
+2. Stwórz funkcję fahrenheit, która przyjmie jeden parametr.
+
+3. Argument ma zostać przypisany do zmiennej celsius (wewnątrz funkcji).
+
+4. Funkcja ma przekonwertować °C na °F. Wynik przypisz do zmiennej temp.
+
+Wzór:
+T(°F) = T(°C) × 1.8 + 32
+
+5. Wywołaj funkcję. Podaj do niej jakiś argument (typ number, czyli naszą temperaturę).
+
+6. Wynik wypisz w konsoli za pomocą template stringa, np. X°C = Y°F.
